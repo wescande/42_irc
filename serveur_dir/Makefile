@@ -31,20 +31,14 @@ LIBFT_INC	=	$(LIBFT_DIR)includes/
 LIBS		=
 
 SRC_BASE	=	\
-circular/circular_buf_add.c\
-circular/circular_buf_crlf.c\
-circular/circular_buf_get.c\
-client/client_command.c\
-client/client_delete.c\
-client/client_entry.c\
-client/client_input.c\
-client/client_message.c\
-client/client_new.c\
-command/nick.c\
 initialize_server.c\
-main.c\
 server_input.c\
-server_loop.c
+circular/circular_buf_get.c\
+circular/circular_buf_crlf.c\
+circular/circular_buf_add.c\
+server_loop.c\
+main.c\
+command/nick.c
 
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))
